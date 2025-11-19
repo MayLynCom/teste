@@ -537,8 +537,11 @@ footer p {
     box-shadow: 0 0 20px rgba(245, 198, 75, 0.25);
 }
 
-.secao-cep .btn {
-    margin: 10px auto 0;
+.secao-cep .btn,
+.cep-resultado .btn {
+    width: min(100%, 340px);
+    display: block;
+    margin: 14px auto 0;
 }
 
 .cep-resultado,
@@ -559,9 +562,6 @@ footer p {
     font-size: 1rem;
 }
 
-.cep-resultado .btn {
-    margin-top: 10px;
-}
 .cep-erro {
     background: rgba(190, 44, 44, 0.2);
     border: 1px solid rgba(190, 44, 44, 0.4);
